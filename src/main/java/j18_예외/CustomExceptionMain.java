@@ -35,8 +35,8 @@ public class CustomExceptionMain {
 				throw new CustomException("유효성 검사 실패", errorMap);
 				
 			} 
-			
 			System.out.println("회원 등록 진행");
+			
 		} catch (CustomException e) {
 			try {
 				e.printErrorMap();				
